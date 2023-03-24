@@ -76,20 +76,24 @@
                                     <input type="text" name="_honey" style="display:none">
 
                                     <div class="form-floating mb-3">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-sb-validations="required" required>
                                         <label for="name">Full name</label>
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email Address" required>
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email Address" data-sb-validations="required,email" required>
                                         <label for="email">Email</label>
+                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input type="tel" name="phone" class="form-control" id="phone" placeholder="Phone number" required>
+                                        <input type="tel" name="phone" class="form-control" id="phone" placeholder="Phone number">
                                         <label for="phone">Phone (optional)</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" name="message" placeholder="Message" required></textarea>
+                                        <textarea class="form-control" id="message" type="text" name="message" placeholder="Message" style="height: 10rem" data-sb-validations="required" required></textarea>
                                         <label for="message">Message</label>
+                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                     </div>
                                     
                                     
