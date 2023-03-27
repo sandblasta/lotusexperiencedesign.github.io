@@ -2,6 +2,17 @@
 
 // Command to run Sass compiler manually: sass --watch main.scss main.css (use if live sass compiler extension not working)
 
+// create my own map
+$custom-colors: (
+  "custom-indigo-400": #864bef
+);
+
+// merge the maps
+
+// $theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
 body{
   font-family: 'Oxygen', sans-serif !important;
 
@@ -15,6 +26,12 @@ h1, .h1{
 h2, .h2 {
   font-family: 'Oxygen', sans-serif;
 }
+
+.text-dark {
+  color: #864bef !important;
+}
+
+
 
 a, .a {
   font-family: 'Oxygen', sans-serif;
@@ -30,7 +47,7 @@ a, .a {
   font-family: 'Oxygen', sans-serif !important;
 }
 
-.btn-primary, .bg-primary, {
+.btn-primary, .bg-primary {
   // background-color: #6b4bef;
   background-color:  #6b4bef !important;
 
