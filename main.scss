@@ -1,25 +1,25 @@
 
-
-// Command to run Sass compiler manually: sass --watch main.scss main.css (use if live sass compiler extension not working)
-
 // create my own map
-$custom-colors: (
-  "custom-indigo-400": #864bef
+$theme-colors: (
+  "danger": orange,
 );
 
 // merge the maps
 
 // $theme-colors: map-merge($theme-colors, $custom-colors);
 
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Command to run Sass compiler manually: sass --watch main.scss main.css (use if live sass compiler extension not working)
+
 
 
 body{
   font-family: 'Oxygen', sans-serif !important;
-
 }
 
 h1, .h1{
-  color: #864bef !important;
+  color: $indigo-600 !important;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -40,7 +40,6 @@ a, .a {
 
 .navbar {
   font-family: 'Oxygen', sans-serif;
-
 }
 
 .btn {
@@ -48,9 +47,7 @@ a, .a {
 }
 
 .btn-primary, .bg-primary {
-  // background-color: #6b4bef;
-  background-color:  #6b4bef !important;
-
+  background-color: $indigo-600 !important;
 }
 
 .bg-theme {
@@ -60,9 +57,6 @@ a, .a {
 p, .p{
   font-family: 'Oxygen', sans-serif !important;
 }
-
-$body-bg: red;
-$body-color: blue;
 
 // .bg-dark {
 //   background-color: pink !important;
@@ -91,11 +85,11 @@ $body-color: blue;
   background-color: #dfd7c8;
 }
 
+.bg-purple {
+  background-color: $indigo-900;
+}
 
 
-$theme-colors: (
-  "primary": #6b4bef,
 
-);
 
-@import "node_modules/bootstrap/scss/bootstrap";
+
