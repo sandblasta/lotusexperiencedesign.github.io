@@ -11247,6 +11247,7 @@ a, .a {
 
 .btn-primary, .bg-primary {
   background-color: #520dc2 !important;
+  border-color: #520dc2 !important;
 }
 
 .bg-theme {
@@ -11263,7 +11264,7 @@ p, .p {
 }
 
 .bg-dark {
-  --bs-bg-opacity: .9 !important;
+  --bs-bg-opacity: .99 !important;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -11277,6 +11278,10 @@ p, .p {
 
 .bg-purple {
   background-color: #140330;
+}
+
+.bg-purple-dark {
+  background-color: #0a0218;
 }
 
 /*# sourceMappingURL=main.css.map */

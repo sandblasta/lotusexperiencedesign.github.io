@@ -69,7 +69,7 @@ p, .p{
 }
 
 .bg-dark {
-  --bs-bg-opacity: .9 !important;
+  --bs-bg-opacity: .99 !important;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -89,7 +89,10 @@ p, .p{
   background-color: $indigo-900;
 }
 
+.bg-purple-dark {
+  background-color: #0e0222;
 
+}
 
 
 
