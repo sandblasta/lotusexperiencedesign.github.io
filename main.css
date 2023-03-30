@@ -11283,10 +11283,16 @@ p, .p {
   background-color: #0e0222;
 }
 
+.short-text {
+  display: none;
+}
+
 @media (max-width: 575.98px) {
-  #topnav {
-    font-size: 1rem !important;
-    margin-right: 0px;
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
   }
 }
 
