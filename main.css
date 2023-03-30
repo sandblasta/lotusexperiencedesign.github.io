@@ -11247,7 +11247,6 @@ a, .a {
 
 .btn-primary, .bg-primary {
   background-color: #520dc2 !important;
-  border-color: #520dc2 !important;
 }
 
 .bg-theme {
@@ -11281,7 +11280,14 @@ p, .p {
 }
 
 .bg-purple-dark {
-  background-color: #0a0218;
+  background-color: #0e0222;
+}
+
+@media (max-width: 575.98px) {
+  #topnav {
+    font-size: 1rem !important;
+    margin-right: 0px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
