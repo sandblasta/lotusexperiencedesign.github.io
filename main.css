@@ -11287,12 +11287,21 @@ p, .p {
   display: none;
 }
 
+.logo-small {
+  display: none;
+}
+
 @media (max-width: 575.98px) {
   .short-text {
     display: inline-block;
   }
   .full-text {
     display: none;
+  }
+}
+@media (max-width: 1199.98px) {
+  .logo-small {
+    display: block;
   }
 }
 
