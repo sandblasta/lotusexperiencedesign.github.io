@@ -11283,6 +11283,10 @@ p, .p {
   background-color: #0e0222;
 }
 
+.bg-purple-light {
+  background-color: #f8f5fc;
+}
+
 .short-text {
   display: none;
 }
